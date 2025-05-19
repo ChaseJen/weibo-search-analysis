@@ -5,7 +5,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 # 设置正确的 API 密钥和 base_url
-client = OpenAI(api_key="sk-6b251c2cdf334a40b298d594d27801cf", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="", base_url="https://api.deepseek.com")
 
 def get_sentiment_score(text):
     prompt = f"""请对以下微博内容进行情绪倾向打分，范围是1~10，其中：
